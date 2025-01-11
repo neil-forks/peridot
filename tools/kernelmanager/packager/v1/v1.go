@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	 packager "go.resf.org/peridot/tools/kernelmanager/kernel_repack"
+	"go.resf.org/peridot/tools/kernelmanager/packager"
 )
 
 //go:embed data/*

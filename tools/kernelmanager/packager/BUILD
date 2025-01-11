@@ -5,5 +5,8 @@ go_library(
     srcs = ["repack.go"],
     importpath = "go.resf.org/peridot/tools/kernelmanager/packager",
     visibility = ["//visibility:public"],
-    deps = ["//vendor/github.com/go-git/go-billy/v5:go-billy"],
+    deps = [
+        "//vendor/github.com/go-git/go-billy/v5:go-billy",
+        "//vendor/github.com/pkg/errors",
+    ],
 )

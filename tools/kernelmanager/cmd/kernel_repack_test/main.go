@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/go-git/go-billy/v5/osfs"
 	"github.com/pkg/errors"
-	"go.resf.org/peridot/tools/kernelmanager/kernel_repack/kernelorg"
-	repack_v1 "go.resf.org/peridot/tools/kernelmanager/kernel_repack/v1"
+	"go.resf.org/peridot/tools/kernelmanager/packager/kernelorg"
+	repack_v1 "go.resf.org/peridot/tools/kernelmanager/packager/v1"
 	"os"
 	"time"
 )

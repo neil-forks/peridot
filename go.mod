@@ -26,19 +26,15 @@ require (
 	github.com/jarcoal/httpmock v1.3.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.16.0
-	github.com/rocky-linux/srpmproc v0.5.0
-	github.com/sassoftware/go-rpmutils v0.2.0
 	github.com/stretchr/testify v1.8.4
 	github.com/temporalio/temporalite v0.3.1-0.20230117200252-2df426ad3426
-	github.com/testcontainers/testcontainers-go v0.21.0
-	github.com/testcontainers/testcontainers-go/modules/postgres v0.21.0
 	github.com/urfave/cli/v2 v2.25.7
 	github.com/wk8/go-ordered-map/v2 v2.1.8
+	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8
 	go.ciq.dev/pika v0.0.0-20230819201750-737c3e8f413d
+	go.resf.org/peridot/base/go/pb v0.0.0-00010101000000-000000000000
 	go.resf.org/peridot/third_party/bazel/src/main/protobuf v0.0.0-00010101000000-000000000000
 	go.resf.org/peridot/tools/kernelmanager/pb v0.0.0-00010101000000-000000000000
-	go.resf.org/peridot/tools/mothership/admin/pb v0.0.0-00010101000000-000000000000
-	go.resf.org/peridot/tools/mothership/pb v0.0.0-00010101000000-000000000000
 	go.starlark.net v0.0.0-20230814145427-12f4cb8177e4
 	go.temporal.io/api v1.13.1-0.20221110200459-6a3cb21a3415
 	go.temporal.io/sdk v1.19.0
@@ -66,9 +62,7 @@ require (
 	dario.cat/mergo v1.0.0 // indirect
 	entgo.io/ent v0.12.3 // indirect
 	github.com/AppsFlyer/go-sundheit v0.5.0 // indirect
-	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Azure/go-ntlmssp v0.0.0-20221128193559-754e69321358 // indirect
-	github.com/DataDog/zstd v1.4.5 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/Masterminds/semver/v3 v3.2.1 // indirect
@@ -85,7 +79,6 @@ require (
 	github.com/benbjohnson/clock v1.3.5 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
-	github.com/bluekeyes/go-gitdiff v0.5.0 // indirect
 	github.com/bmatcuk/doublestar/v4 v4.6.0 // indirect
 	github.com/bufbuild/protocompile v0.6.0 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
@@ -93,18 +86,12 @@ require (
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/cloudflare/circl v1.3.3 // indirect
-	github.com/containerd/containerd v1.7.0-beta.0 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
-	github.com/cpuguy83/dockercfg v0.3.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dexidp/dex/api/v2 v2.1.1-0.20230804184036-a9d1fd31c329 // indirect
 	github.com/dgryski/go-farm v0.0.0-20200201041132-a6ae2369ad13 // indirect
-	github.com/docker/distribution v2.8.2+incompatible // indirect
-	github.com/docker/docker v24.0.5+incompatible // indirect
-	github.com/docker/go-connections v0.4.0 // indirect
-	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a // indirect
@@ -162,12 +149,10 @@ require (
 	github.com/jtolds/gls v4.20.0+incompatible // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
-	github.com/klauspost/compress v1.16.0 // indirect
 	github.com/labstack/echo/v4 v4.11.1 // indirect
 	github.com/labstack/gommon v0.4.0 // indirect
 	github.com/lib/pq v1.10.9 // indirect
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de // indirect
-	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattermost/xml-roundtrip-validator v0.1.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
@@ -179,18 +164,11 @@ require (
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
-	github.com/moby/patternmatcher v0.5.0 // indirect
-	github.com/moby/sys/sequential v0.5.0 // indirect
-	github.com/moby/term v0.5.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/olivere/elastic/v7 v7.0.32 // indirect
-	github.com/opencontainers/go-digest v1.0.0 // indirect
-	github.com/opencontainers/image-spec v1.1.0-rc4 // indirect
-	github.com/opencontainers/runc v1.1.5 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pborman/uuid v1.2.1 // indirect
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
@@ -220,11 +198,9 @@ require (
 	github.com/twmb/murmur3 v1.1.8 // indirect
 	github.com/uber-common/bark v1.3.0 // indirect
 	github.com/uber-go/tally/v4 v4.1.6 // indirect
-	github.com/ulikunitz/xz v0.5.9 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
-	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	github.com/xwb1989/sqlparser v0.0.0-20180606152119-120387863bf2 // indirect
 	github.com/zclconf/go-cty v1.13.3 // indirect
@@ -287,12 +263,10 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace go.resf.org/peridot/tools/mothership/pb => ./bazel-bin/tools/mothership/proto/v1/mothershippb_go_proto_/go.resf.org/peridot/tools/mothership/pb
-
 replace go.resf.org/peridot/third_party/bazel/src/main/protobuf => ./bazel-bin/third_party/bazel/src/main/protobuf/blaze_query_go_proto_/go.resf.org/peridot/third_party/bazel/src/main/protobuf
-
-replace go.resf.org/peridot/tools/mothership/admin/pb => ./bazel-bin/tools/mothership/proto/admin/v1/mshipadminpb_go_proto_/go.resf.org/peridot/tools/mothership/admin/pb
 
 replace google.golang.org/genproto/googleapis/longrunning => ./bazel-bin/third_party/googleapis/google/longrunning/longrunning_go_proto_/google.golang.org/genproto/googleapis/longrunning
 
 replace go.resf.org/peridot/tools/kernelmanager/pb => ./bazel-bin/tools/kernelmanager/proto/v1/kernelmanagerpb_go_proto_/go.resf.org/peridot/tools/kernelmanager/pb
+
+replace go.resf.org/peridot/base/go/pb => ./bazel-bin/base/proto/basepb_go_proto_/go.resf.org/peridot/base/go/pb
